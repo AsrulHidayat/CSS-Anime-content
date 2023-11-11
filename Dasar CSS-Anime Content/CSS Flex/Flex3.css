@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+  }
+  
+  .child1 {
+    flex: 2;
+  }
+  
+  .child2 {
+    flex: 1;
+  }
+  
