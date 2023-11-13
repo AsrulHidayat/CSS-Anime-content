@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css.css">
-    <title>Contoh Layout Website</title>
+    <title>Anime Konten Wallpaper</title>
 </head>
 
 <body>
@@ -20,16 +20,27 @@
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Produk</a></li>
-            <li><a href="#">More</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">More</a>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </li>
             <li class="kanan"><a href="#">Login</a></li>
         </ul>
     </nav>
 
     <main>
+
         <section id="sidebar-left">
             <div class="konten1">
-                <h1>New Konten</h1>
-                <h5>Title description, Nov 09 2023</h5>
+                <div class="subjudul">
+                    <h1>New Konten</h1>
+                    <h5>Title description, Nov 09 2023</h5>
+                </div>
+
                 <br>
 
                 <div class="gallery">
@@ -61,29 +72,29 @@
                 </div>
 
                 <div class="gallery">
-                    <a target="_blank" href="https://i.pinimg.com/564x/aa/49/bd/aa49bdea3d05223c13484261cb53d6f2.jpg">
-                        <img src="https://i.pinimg.com/564x/aa/49/bd/aa49bdea3d05223c13484261cb53d6f2.jpg" alt="Cinque Terre" width="600" height="400">
+                    <a target="_blank" >
+                        <img src="https://i.pinimg.com/736x/ca/84/e4/ca84e4b46a758b94ead40aae94a5c93c.jpg" alt="Cinque Terre" width="600" height="400">
                     </a>
                     <div class="desc">Add a description of the image here</div>
                 </div>
                         
                 <div class="gallery">
-                        <a target="_blank" href="https://i.pinimg.com/564x/58/e8/ef/58e8ef2cdbc20b31fa5dff1df5d7f7d3.jpg">
-                            <img src="https://i.pinimg.com/564x/58/e8/ef/58e8ef2cdbc20b31fa5dff1df5d7f7d3.jpg" alt="Forest" width="600" height="400">
+                        <a target="_blank" >
+                            <img src="https://i.pinimg.com/564x/c4/0d/ae/c40dae007401937957d7b92d7502241a.jpg" alt="Forest" width="600" height="400">
                         </a>
                     <div class="desc">Add a description of the image here</div>
                 </div>
                         
                 <div class="gallery">
-                    <a target="_blank" href="https://i.pinimg.com/564x/f0/39/56/f0395689242a563195ba2e33c4d78e83.jpg">
-                        <img src="https://i.pinimg.com/564x/f0/39/56/f0395689242a563195ba2e33c4d78e83.jpg" alt="Northern Lights" width="600" height="400">
+                    <a target="_blank">
+                        <img src="https://i.pinimg.com/564x/b3/f0/8e/b3f08e491445ab2bb96f300ff09761ec.jpg" alt="Northern Lights" width="600" height="400">
                     </a>
                     <div class="desc">Add a description of the image here</div>
                 </div>
                         
                 <div class="gallery">
-                    <a target="_blank" href="https://i.pinimg.com/564x/41/59/e2/4159e2b7160850b7051fe7d91ce674dc.jpg">
-                        <img src="https://i.pinimg.com/564x/41/59/e2/4159e2b7160850b7051fe7d91ce674dc.jpg" alt="Mountains" width="600" height="400">
+                    <a target="_blank">
+                        <img src="https://i.pinimg.com/564x/cd/5b/a8/cd5ba8a266f791ff721407542a19344f.jpg" alt="Mountains" width="600" height="400">
                     </a>
                     <div class="desc">Add a description of the image here</div>
                 </div>
@@ -92,18 +103,19 @@
             <div class="konten2">
                 <h1>Trending</h1>
                 <h5>Title description, Nov 09 2023</h5>
-                <br>
-                
-                <style></style>
+
+                <br><br>
 
                 <div class="gambar">
                     <img src="Image/Konten 1.jpg" style="    object-fit: cover;
                     width: 100%;
                     border-radius: 25px;">
                 </div>
-                <br><br>
+                <p>Focus in study</p>
+                
+                <br>
                 <div class="gambar">
-                    <img src="Image/Konten 1.jpg" style="    object-fit: cover;
+                    <img src="Image/Konten 2.jpg" style="    object-fit: cover;
                     width: 100%;
                     border-radius: 25px;">
                 </div>
@@ -122,28 +134,63 @@
                 <h1>Tranding</h1>
                 <img src="https://i.pinimg.com/564x/60/07/46/600746dac3b4935559546291cb6bb65b.jpg" alt="" width="300" style="border-radius: 10px;">
                 <p>Some Text About...</p>
-                <img src="https://i.pinimg.com/564x/60/07/46/600746dac3b4935559546291cb6bb65b.jpg" alt="" width="300" style="border-radius: 10px;">
+                <img src="https://i.pinimg.com/564x/a1/1e/ae/a11eaeeb91f922e43b1edbd904a13586.jpg" alt="" width="300" style="border-radius: 10px;">
                 <P>Asrul Hidayat...</P>
             </nav>
 
             <nav class="card2">
                 <h1>Popular Post</h1>
-                <nav class="dalam">
-                    <div>Tranding 1</div>
-                    <br><br>
-                    <div>Tranding 2</div>
-                    <br><br>
-                    <div>Tranding 3</div>
+                <nav>
+                    <div class="tran1">Tranding 1</div>
+                    <div class="tran2">Tranding 2</div>
+                    <div class="tran3">Tranding 3</div>
                 </nav>
             </nav>
 
             <nav class="card3">
                 <h1>Follow me</h1>
-                <div>Efek yang diinginkan adalah <br> apa yang ada di dalam menjadi <br> lebar dan terus lebar.... <br><br> ada bayangannya dan lain sebagainya <br> sampai pusing cari bahasa cssnya <br>yang mana hehehe...</div>
+                <div class="isian">
+                    <div>
+                        Selamat datang dalam perjalanan luar biasa saya, di mana setiap langkah adalah sebuah cerita yang menanti untuk diungkap. Melalui mata saya, Anda akan dibawa menjelajahi keindahan yang tersembunyi dan merasakan keajaiban dunia ini. 
+                    </div> <br>
+                    <div> 
+                        Tiap kisah adalah sebuah babak baru dalam petualangan yang tak terduga. Saya mengundang Anda untuk terhubung dengan inspirasi, pengetahuan, dan momen-momen penuh warna yang akan saya bagi bersama Anda.
+                    </div> <br>
+                    <div>
+                         Bersiaplah untuk mengeksplorasi, belajar, dan berbagi kehidupan ini dengan semua kompleksitasnya. Mari bersama-sama menemukan keindahan, mengejar misteri, dan merayakan hidup.
+                    </div> <br> 
+                    <div>
+                         Ikuti saya untuk sebuah petualangan yang tak terlupakan, di mana #AdventureAwaits dan keajaiban selalu ada di setiap langkah.
+                    </div>
+                </div>
             </nav>
         </section>
 
-    </main>
+   </main>
+
+   <div class="konten3">                
+        <div class="formKonten3">
+            <h1>Contact Person : </h1>
+            <br>
+            <form >
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="indonesia">Indonesia</option>
+                    <option value="japan">Japan</option>
+                    <option value="usa">USA</option>
+                </select>
+            
+                <input type="submit" value="Submit" >
+            </form>
+        </div>   
+    </div>
+
     <footer>
         <p>&copy; 2023 Asrul hidayat</p>
     </footer>
